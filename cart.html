@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <h1>🛒 Your Shopping Cart</h1>
+         <a href="index.html">Home</a>
+    </header>
+
+    <main>
+        <div class="cart-container">
+            <ul id="cart-items"></ul>
+            <p id="empty-message">Your cart is empty.</p>
+        </div>
+
+        <div class="cart-buttons">
+            <button onclick="clearCart()">🗑 Clear Cart</button>
+            <button onclick="checkout()">✅ Checkout</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Amin Rights Reserved</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
